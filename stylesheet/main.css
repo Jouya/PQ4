@@ -8,12 +8,16 @@
     font-weight: bold;
 }
 .footer {
-
-    margin: 5%;
-    font-family: Avenir;
+    position: fixed;
+    bottom: 0%;
+    margin: 20px;
+    font-family: 'Roboto Condensed', serif;
     font-size:15px;
 }
-
+#right {
+    position: fixed;
+    right: 0%;
+}
 /* The sidepanel menu */
 .sidepanel {
     height: 250px; /* Specify a height */
