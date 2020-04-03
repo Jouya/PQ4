@@ -5,4 +5,9 @@
 #h1 {
     font-family: 'Roboto Condensed', serif;
     font-weight: bold;
+.footer {
+
+    margin: 5%;
+    font-family: Avenir;
+    font-size:15px;
 }
