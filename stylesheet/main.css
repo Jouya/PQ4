@@ -1,11 +1,12 @@
-.row {
-    top: 8px;
-    left: 8px;
+.bar {
+    margin-left: 20px;
+    margin-top: 8px;
 }
 
 #h1 {
     font-family: 'Roboto Condensed', serif;
     font-weight: bold;
+}
 .footer {
 
     margin: 5%;
