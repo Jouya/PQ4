@@ -6,6 +6,7 @@
 #h1 {
     font-family: 'Roboto Condensed', serif;
     font-weight: bold;
+    margin-left:20px;
 }
 .footer {
     position: fixed;
@@ -18,9 +19,16 @@
     position: fixed;
     right: 0%;
 }
-/* The sidepanel menu */
-.sidepanel {
-    height: 250px; /* Specify a height */
+  .form {
+
+    margin: 5%;
+    font-family: 'Roboto Condensed', serif;
+  }
+
+
+  /* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -29,11 +37,12 @@
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    font-family:'Roboto Condensed', serif;
   }
   
-  /* The sidepanel links */
-  .sidepanel a {
+  /* The sidebar links */
+  .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -43,12 +52,12 @@
   }
   
   /* When you mouse over the navigation links, change their color */
-  .sidepanel a:hover {
+  .sidebar a:hover {
     color: #f1f1f1;
   }
   
   /* Position and style the close button (top right corner) */
-  .sidepanel .closebtn {
+  .sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -56,12 +65,12 @@
     margin-left: 50px;
   }
   
-  /* Style the button that is used to open the sidepanel */
+  /* The button used to open the sidebar */
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    background-color: white;
+    color:#111;
     padding: 10px 15px;
     border: none;
   }
@@ -69,8 +78,15 @@
   .openbtn:hover {
     background-color: #444;
   }
-
-  .form {
-
-    margin: 5%;
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
   }
