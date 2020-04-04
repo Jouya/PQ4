@@ -74,34 +74,14 @@ ont-size:15px;
     position: fixed;
     right: 0%;
 }
-  .form {
 
-<<<<<<< Updated upstream
-    margin: 5%;
-=======
+
 .form {
     margin-left: 15%;
     margin-right: 15%;
->>>>>>> Stashed changes
     font-family: 'Roboto Condensed', serif;
   }
 
-<<<<<<< Updated upstream
-
-/* The sidepanel menu */
-.sidepanel {
-    height: 250px; /* Specify a height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-    font-family:'Roboto Condensed', serif;
-=======
 .sidebar {
     height: 100%;
     width: 0;
@@ -116,7 +96,6 @@ ont-size:15px;
     font-family: 'Roboto Condensed', serif;
     margin-left:0;
 
->>>>>>> Stashed changes
   }
   
   /* The sidebar links */
@@ -167,9 +146,6 @@ ont-size:15px;
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
-<<<<<<< Updated upstream
-  }
-=======
   }
 
  #h2 {
@@ -226,4 +202,3 @@ ont-size:15px;
  }
  
 
->>>>>>> Stashed changes
