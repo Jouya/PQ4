@@ -76,10 +76,17 @@ ont-size:15px;
 }
   .form {
 
+<<<<<<< Updated upstream
     margin: 5%;
+=======
+.form {
+    margin-left: 15%;
+    margin-right: 15%;
+>>>>>>> Stashed changes
     font-family: 'Roboto Condensed', serif;
   }
 
+<<<<<<< Updated upstream
 
 /* The sidepanel menu */
 .sidepanel {
@@ -94,6 +101,22 @@ ont-size:15px;
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
     font-family:'Roboto Condensed', serif;
+=======
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: -5px;
+    left: -20px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Roboto Condensed', serif;
+    margin-left:0;
+
+>>>>>>> Stashed changes
   }
   
   /* The sidebar links */
@@ -101,7 +124,7 @@ ont-size:15px;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #D3D3D3;
     display: block;
     transition: 0.3s;
   }
@@ -130,9 +153,9 @@ ont-size:15px;
     border: none;
   }
   
-  .openbtn:hover {
+  /* .openbtn:hover {
     background-color: #444;
-  }
+  } */
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
@@ -144,4 +167,63 @@ ont-size:15px;
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+<<<<<<< Updated upstream
   }
+=======
+  }
+
+ #h2 {
+     position: relative;
+     top: -45px;
+     left: 55px;
+     font-family: 'Roboto Condensed', serif;
+     font-weight: bold;
+    
+ }
+
+ #h3 {
+  position: relative;
+  margin-left:15%;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: bold;
+  font-size: 22px;
+ 
+}
+
+ #contact-submit {
+    background-color: gray;
+    color: black;
+    font-family: 'Roboto Condensed', serif;
+    padding: 10px;
+ }
+
+ #contact-submit:hover {
+
+    color: gray;
+    background-color: black;
+    font-family: 'Roboto Condensed', serif;
+    padding: 10px;
+ }
+
+
+ .index {
+
+    display: flex;
+    resize: auto;
+ }
+
+ #contactpic {
+  
+   
+    max-width: 100%;
+    margin-top: -40px;
+ }
+
+ .contactpage {
+
+  margin-left:-20px;
+  margin-right:-20px;
+ }
+ 
+
+>>>>>>> Stashed changes
