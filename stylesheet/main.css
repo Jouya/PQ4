@@ -68,12 +68,7 @@ button {
     font-weight: bold;
     margin-left:20px;
 }
-.footer {
-    position: fixed;
-    bottom: 0%;
-    margin: 20px;
-    font-family: 'Roboto Condensed', serif;
-    font-size:15px;
+ont-size:15px;
 }
 #right {
     position: fixed;
