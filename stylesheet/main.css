@@ -1,23 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  background: black;
+  outline: none;
+  cursor: pointer;
+}
 .bar {
-    margin-left: 20px;
-    margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1420px;
+  background-color: white;
+}
+.bar .cta-contact {
+  font-family: inherit;
+  color: white;
+  font-size: 20px;
+  padding: 5px 18px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container > * {
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  flex-grow: 1;
+  background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg");
+}
+.col {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1420px;
+  background-color: white;
+  font-family: inherit;
+}
+
+.footer :right{
+  display: flex;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 #h1 {
     font-family: 'Roboto Condensed', serif;
     font-weight: bold;
 }
-.footer {
-    position: fixed;
-    bottom: 0%;
-    margin: 20px;
-    font-family: 'Roboto Condensed', serif;
-    font-size:15px;
-}
-#right {
-    position: fixed;
-    right: 0%;
-}
+
 /* The sidepanel menu */
 .sidepanel {
     height: 250px; /* Specify a height */
