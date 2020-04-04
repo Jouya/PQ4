@@ -33,12 +33,14 @@ button {
 .container > * {
   padding: 10px;
 }
+
 .row {
   display: flex;
   flex-direction: row;
   width: 1440px;
   flex-grow: 1;
-  background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg");
+  /* background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg"); */
+  background-image: url("../images/homepage.jpeg");
 }
 .col {
   font-weight: bold;
@@ -190,7 +192,6 @@ ont-size:15px;
 
  #contactpic {
   
-   
     max-width: 100%;
     margin-top: -40px;
  }
@@ -201,4 +202,20 @@ ont-size:15px;
   margin-right:-20px;
  }
  
+
+ #contact-btn {
+
+  background-color:white;
+ }
+
+ #pagelink {
+   color:black;
+   
+ }
+
+ #pagelink:hover {
+
+  color:#696969;
+  text-decoration: none;
+ }
 
