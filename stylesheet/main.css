@@ -14,12 +14,17 @@ button {
   width: 1420px;
   background-color: white;
 }
+
+
 .fa {
+  border-radius: 100%;
   padding: 17px;
   font-size: 30px;
   width: 50px;
-  height: 50px;
+  line-height: 50px;
+  margin: 2px;
   text-align: center;
+  align-content: right;
 }
 .fa:hover {
   opacity: 0.7;
@@ -46,7 +51,7 @@ button {
   padding: 10px;
 }
 
-.row {
+#my-row {
 
 
   /* display: flex;
@@ -63,11 +68,11 @@ button {
 
 .col {
 
-  font-weight: bold;
+  /* font-weight: bold;
   color: black;
   font-size: 25px;
   text-align: center;
-  margin:auto;
+  margin:auto; */
 
 
 }
@@ -88,28 +93,33 @@ button {
   margin-bottom: 5px;
 }
 
+
+
 #h1 {
     font-family: 'Roboto Condensed', serif;
     font-weight: bold;
-    margin-left:0px;
+    margin-left:10px;
 }
 .right {
     position: fixed;
     right: 0%;
 }
+
 .right2 {
   position: absolute;
   right: 10%;
-  margin-top: -6.5%;
+  margin-top: 5.5%;
 }
+
 .left {
-  position: fixed;
-  left: 20%;
+  position: absolute;
+  left: 30%;
+  
 }
 .left2 {
   position: absolute;
   left: 25%;
-  margin-top: -6.2%;
+  margin-top: 20px;
 }
 .form {
     margin-left: 15%;
@@ -242,10 +252,11 @@ button {
  }
 
  #pagelink {
-   color:black;
-  vertical-align: center;
-
-
+  color:black;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin:auto;
    
  }
 
@@ -261,11 +272,11 @@ button {
   color: white;
 }
 
-#homepage {
+#logo {
+  position: absolute;
+  margin-left: 20px;
 
-  margin-top: 50px;
-  margin-left: -20px;
-  width: 110%;
-  position: fixed;
 }
+
+
 
