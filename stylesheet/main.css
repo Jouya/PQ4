@@ -46,7 +46,7 @@ button {
   padding: 10px;
 }
 
-.row {
+.row2 {
   display: flex;
   flex-direction: row;
   width: 1440px;
@@ -241,3 +241,65 @@ button {
   text-decoration: none;
  }
 
+ .side_button {
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: initial;
+  width: 210px;
+  height: 80px;
+}
+
+.custom_img_center {
+  display: flex;
+  margin-right: 30px ;
+  margin-left: 30px ;
+  border-radius: 25px;
+}
+  
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container2:hover .custom_img_center{
+  opacity: 0.8;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.text2 {
+  background-color: black;
+  color: White;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
