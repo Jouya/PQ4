@@ -30,12 +30,11 @@ button:hover {
 .fa {
   border-radius: 100%;
   padding: 17px;
-  font-size: 30px;
+  font-size: 50px;
   width: 50px;
-  line-height: 50px;
-  margin: 7px;
+  line-height: 30px;
+  margin: 3px;
   text-align: center;
-  align-content: right;
 }
 .fa:hover {
   opacity: 0.7;
@@ -64,13 +63,12 @@ button:hover {
 
 #my-row {
 
-
   /* display: flex;
   flex-direction: row; */
   /* width: 100%;
   flex-grow: 1; */
   /* background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg"); */
-  background-image: url("../Images/homepage.jpeg");
+  background-image: url("https://raw.githubusercontent.com/Jouya/PQ4/master/Images/homepage.jpeg");
   margin-top: 0vh;
   height: 75vh;
   max-height: 90%;
