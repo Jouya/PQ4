@@ -312,6 +312,7 @@ button:hover {
   position: initial;
   width: 210px;
   height: 80px;
+  margin-left: 15%;
 }
 
 .custom_img_center {
