@@ -43,8 +43,9 @@
           
         </div>
         <h3 id="h3"> Give us feedback!</h3>
+        <!-- code from before
         <form class="form" action="mailto:jmahmoud@bowdoin.edu?Subject=Feedback" method="POST" enctype="text/plain">
-          <!-- We probably don't need this - Jouya
+          We probably don't need this - Jouya
             <div class="form-group">
                 <label for="exampleInputName2">Name</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
@@ -54,14 +55,25 @@
               <label for="exampleFormControlInput1">Email Address</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="janedoe@example.com">
             </div>
-            --->
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Comments:</label>
               <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button id="contact-submit">Submit</button>
         </form>
-        
+        --->
+        <form class="form" action="contact.html" onsubmit="success()">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comments:</label>
+            <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button id="contact-submit">Submit</button>
+        </form>
+        <script>
+          function success() {
+            alert("Your message was sent!");
+          }
+          </script>
       </div>
     
 
