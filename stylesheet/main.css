@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-button {
+
+#button {
   color: white;
   background: black;
   outline: none;
@@ -14,9 +15,9 @@ button {
   border: 1px solid;
   border-radius: 5px;
 }
-button:hover {
+#button:hover {
   cursor: pointer;
-  color:#696969;
+  background-color:#585858;
   text-decoration: none;
 }
 .bar {
@@ -69,10 +70,13 @@ button:hover {
   flex-grow: 1; */
   /* background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg"); */
   background-image: url("https://raw.githubusercontent.com/Jouya/PQ4/master/Images/homepage.jpeg");
+  background-repeat: repeat-x;
   margin-top: 0vh;
-  height: 75vh;
-  max-height: 90%;
-  min-width: 100%;
+  /* height: 75vh; */
+  /* max-height: 120%; */
+  width: 108%;
+  height: 80%;
+
 }
 
 .col {
@@ -363,5 +367,28 @@ button:hover {
 }
 
 
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
 
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 20%;
+}
 
+h2 {
+
+  margin-right: 20px;
+}
+
+#exhibits{
+
+  margin-top: -2%;
+  margin-left: 4.8%;
+}
+
+button #e {
+
+}
