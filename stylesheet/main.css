@@ -26,7 +26,6 @@ button:hover {
   background-color: white;
 }
 
-
 .fa {
   border-radius: 100%;
   padding: 17px;
@@ -362,6 +361,88 @@ button:hover {
   width: 50%;
 }
 
+.visitpage {
+  margin-top: -10px;
+  margin-left:-20px;
+  margin-right:-20px;
+ }
 
+ #visitpic {
+  max-width: 100%;
+  margin-top: -40px;
+}
 
+.tour_button {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  width: 210px;
+  height: 55px;
+  margin-top: -105px;
+  margin-left: 85%;
+  font-family: 'Roboto Condensed', serif;
+}
 
+#h6 {
+  position: absolute;
+  margin-left: 2%;
+  font-family: 'Roboto Condensed', serif;
+}
+
+#map {
+  position: fixed;
+  margin-top: 4%;
+  margin-left: 2%;
+  width: 50%;
+  height: 400px;
+  background-color: grey;
+}
+
+#h7 {
+  position: absolute;
+  right: 32%;
+  bottom: 8.5%;
+  font-family: 'Roboto Condensed', serif;
+}
+
+#h8 {
+  position: absolute;
+  left: 55%;
+  bottom: -3%;
+  font-family: 'Roboto Condensed', serif;
+}
+
+#parafo {
+  position: absolute;
+  left: 55%;
+  bottom: -33%;
+  font-family: 'Roboto Condensed', serif;
+}
+
+.resource1_button {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  width: 250px;
+  height: 70px;
+  left: 59%;
+  bottom: -41.5%;
+  font-family: 'Roboto Condensed', serif;
+}
+
+.resource2_button {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  width: 250px;
+  height: 70px;
+  left: 78%;
+  bottom: -41.5%;
+  font-family: 'Roboto Condensed', serif;
+}

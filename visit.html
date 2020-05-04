@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- My own CSS -->
+  <link rel="stylesheet" href="stylesheet/main.css" type="text/css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed& display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Visit | Bowdoin Art Museum</title>
+</head>
+
+<body class="visitpage">
+    <script src="js/script.js"></script>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Exhibitions</a>
+        <a href="visit.html">Visit</a>
+        <a href="#">Events and News</a>
+        <a href="#">Discussion Forum</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button> 
+        <h1 id="h2">Bowdoin College Museum of Art</h1>
+        <button class="tour_button" onclick="window.location.href='https://www.bowdoin.edu/art-museum/visit/public-tours-form.html'">REQUEST A TOUR</button>
+        <div class="img-cntr">
+          <img src="Images/visit.png" class="img-responsive" id="visitpic" alt="One artwork from the Bowdoin Art Museum">
+        </div>
+        <br/br>
+        <h3 id="h6">Our Location</h3>
+        <div id="map">
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNcC_U9AzTMcfY6V5Dzj9v6F5JFgTW3nc&callback=initMap">
+            </script>
+            initMap()
+        </div>
+        <h3 id="h7">Visit From Home</h3>
+        <h5 id="h8">Although the galleries are closed, the Bowdoin College Museum of Art (BCMA) has always been more than a building. During these challenging times, we remain a hub for teaching, learning, and public engagement.
+        </h5>
+        <p id="parafo">Follow us on Facebook and Instagram to keep up with the many opportunities for engagement with the arts that we are offering our online visitors. Virtually the entire permanent collection (over 20,000 objects) of the BCMA is viewable online with reproductions and rich descriptive detail. We have a number of interactive digital catalogues based on current and past exhibitions, a great archive of historical pictures from the Museum, and a digital repository of Museum's historical publications available through The Digital Commons. For Bowdoin students and faculty, we have numerous resources available to support your educational endeavors. For young people and the young at heart we offer Family Activities to engage with our collections and—most importantly—your own creative spirit. Enjoy!!</p>
+        <button class="resource1_button" onclick="window.location.href='https://www.bowdoin.edu/art-museum/education/digital-resources/index.html'">DIGITAL RESOURCES & PUBLICATIONS</button>
+        <button class="resource2_button" onclick="window.location.href='https://www.bowdoin.edu/art-museum/education/index.html'">STUDENTS & FACULTY RESOURCES</button>
+      </div>
+</body>
