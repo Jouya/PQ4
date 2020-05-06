@@ -13,8 +13,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed& display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Bootstrap Scripts -->
+  <!-- My Script --> -->
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
   <title>Exhibitions Page</title>
 
@@ -36,29 +41,220 @@
       
       <div id="main">
         <button class="openbtn" onclick="openNav()">☰</button>  
-        <h1 id="h2">Bowdoin College Museum of Art</h1>
+        <h1 id="h2">Bowdoin College Museum of Art: Exhibitions</h1>
+        
     </div>
+   
         <div id="exhibits">
-            <h2>Current Exhibitions</h2>
-            <input type="text" name="search" placeholder="Search...">
+            <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Current Exhibitions</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Upcoming Exhibitions</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Past Exhibitions</a>
+                  </div>
+                </div>
+            
+                
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <div class="jumbotron">
+                            <h1 class="display-4">Exhibition: To Instruct and Delight: European and American Art, 1500-1800</h1>
+                            <p class="lead">Dates: January 15, 2015 - January 1, 2022 <br>
+                                Location: Bowdoin Gallery <br> 
+                                This exhibition brings together works from Bowdoin’s 
+                                collection with important recent acquisitions that offer new
+                                perspectives on the art of Europe and the transatlantic colonies.
+                            </p>
+                            <hr class="my-4">
+                            <h2>About</h2>
+                            <p class="lead">
+                                The Museum’s collection of historic European and American art was shaped by
+                                 James Bowdoin III, the founder of the College, who bequeathed family collections
+                                  of European art in 1811. Subsequent generations have built on this legacy and 
+                                  collecting continues to this day. This exhibition brings together works from 
+                                  Bowdoin’s collection with important recent acquisitions that offer new perspectives
+                                on the art of Europe and the transatlantic colonies.
+                            </p>
+                          </div>
 
-        </div>
+                        
+                        <div class="card-deck">
+                            <div class="card">
+                              <img class="card-img-top" id="horiz-pic" src="https://www.bowdoin.edu/art-museum/exhibitions/2015/images/de-Vlieger-Coastal-900x565.jpg?1588652701983" 
+                              alt="European painting of people gathered at a court">
+                              <div class="card-body">
+                                <h5 class="card-title">A Coastal Scene near Zandvoort</h5>
+                                <p class="card-text">1648, oil on panel. <br></br> 
+                                    A gathering of fisherfolk peddling their catch dominates the foreground. 
+                                    The artist’s mastery of perspective is employed here by contrasting the 
+                                    foreground fisherfolk with diminutive figures near the distant water’s edge. 
+                                    All of this human activity occurs under a superbly rendered cloudy sky in which 
+                                    the light playing across the scene seems to be constantly shifting, energizing 
+                                    the painting to brilliant pictorial effect. Simon de Vlieger was responsible 
+                                    for the transition from the spirited beginnings of Dutch marine art to its most
+                                     august and refined stage in the years around 1650. His great predecessor, Jan 
+                                     Porcellis, shifted Dutch marine art away from large-scale history subjects to 
+                                     focus instead on the unique atmospheric effects of the sea. De Vlieger brought 
+                                     these innovations to new levels of refinement by envisaging the constant yet 
+                                     ever-changing rhythm of the sea under vaulting clouds that filter the 
+                                     sunlight playing across land and sea.  
+                                    </p>
+                                <p class="card-text"><small class="text-muted">Museum Purchase, Lloyd O. and Marjorie Strong Coulter Fund.</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img class="card-img-top" src="https://www.bowdoin.edu/art-museum/exhibitions/2015/images/sodom-900x540.jpg?1588652701983" 
+                              alt="Mountains, clouds, and people gathered in the foreground">
+                              <div class="card-body">
+                                <h5 class="card-title">The Burning of Sodom</h5>
+                                
+                                <p class="card-text">
+                                  Master of the Lille Sermon, Flemish, before 1600. <br></br>
+                                    1550-1575, oil on panel. <br></br>
+                                    
+                                    In "The Burning of Sodom" a high horizon line combines with an elevated foreground to reveal a sweeping panorama—
+                                    a composition favored by Flemish painters of the time. Color helps define depth, with a reddish brown hue in the 
+                                    foreground, followed by green and blue shades in the middle and background. In the Book of Genesis, the cities of 
+                                    Sodom and Gomorrah were destroyed when God condemned their inhabitants for their lascivious lifestyles. Angels were
+                                     sent to the city of Sodom, but unable to find ten righteous people there to rescue, they called upon Lot, Abraham’s
+                                      nephew, and led him and his family from the city. The only stipulation was that they must not look back at their 
+                                      burning home. When Lot’s wife disobeyed, she was turned into a pillar of salt. Two distraught daughters got Lot drunk, 
+                                      as seen in the foreground, and then enticed him to father their children.
+                                </p>
+                                <p class="card-text"><small class="text-muted">
+                                    Museum Purchase, Florence C. Quinby Fund, in memory of Henry Cole Quinby, Honorary Degree, 1916.
+                                </small></p>
+                              </div>
+                            </div>
+                          </div>
+                          <br></br>
+                          <div class="card mb-3" style="max-width: 92%;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4" >
+                                <img src="https://www.bowdoin.edu/art-museum/exhibitions/2015/images/van-vliet-685x900.jpg?1588730951654" class="card-img" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">The Tomb of Admiral Jacob Van Wassenaer in the Choir of the Jacobskerk in The Hague</h5>
+                                  <p class="card-text">
+                                    Hendrik Cornelisz. Van Vliet, Dutch, 1611-1675. <br></br>
+                                    1667, oil on canvas.<br></br>
+                                    In mid-seventeenth-century Delft, Hendrick Cornelisz. van Vliet was one of several painters who
+                                    specialized in illusionistic renderings of the interiors of the city’s two great Gothic churches. In
+                                    addition to the scrupulous investigation of the visual qualities of light and space, these views
+                                    were also expressions of the pleasure of observation and national pride, drawing attention to the
+                                    memorials of the heroes in Holland’s recent struggle with Spain. The figures in the composition
+                                    serve as more than mere markers of scale, bringing life to this representation of the church,
+                                    which served as one of the city’s important civic centers. The remarkable trompe l’oeil curtain in
+                                    the far-right foreground cleverly plays with notions of surface and illusion and serves as a
+                                    transition between the space of the viewer and the deep architectural volume of the interior.
+                                  </p>
+                                  <p class="card-text"><small class="text-muted">Museum Purchase, Florence C. Quinby Fund, in memory of Henry Cole Quinby, Honorary
+                                    Degree 1916 </small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    
+                          
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                      <div class="jumbotron">
+                        <h1 class="display-4">EXHIBITION: At First Light: Two Centuries of Artists in Maine</h1>
+                        <p class="lead">Dates: Dates to be announced <br>
+                            Location: Center Gallery, Media Gallery, Becker Gallery, Bernard and Barbro Osher Gallery, Halford Gallery, Focus Gallery <br> 
+                            On the occasion of the 200th anniversary of statehood, the exhibition brings together some of the most outstanding 
+                            artistic treasures created in Maine over the last two centuries.
+                        </p>
+                        <hr class="my-4">
+                        <h2>About</h2>
+                        <p class="lead">
+                          On the occasion of the 200th anniversary of statehood, the Bowdoin College Museum of Art 
+                          will bring together some of the most outstanding artistic treasures created in Maine over the
+                           last two centuries. All artistic mediums will be represented, including painting, sculpture, 
+                           drawing, print-making, photography, new media art, and various craft traditions. While many
+                            works will come from the Museum's collection, the exhibition will also include important works
+                             from other institutions, artists, and private collectors in Maine and beyond. The exhibition
+                              will honor the extraordinary diversity that characterizes the arts in Maine.
+                        </p>
+                      </div>
+                      
+                     
+                   
+
+                      <div class="card-deck">
+                        <div class="card" style="height:30em;">
+                          <img class="card-img-top" src="https://www.bowdoin.edu/art-museum/exhibitions/2020/images/woodbury-1914-2-600x.jpg?1588735261264" alt="European painting of people gathered at a court">
+                          <div class="card-body">
+                            <h5 class="card-title">Marine</h5>
+                            <p class="card-text">By: Charles Herbert Woodbury. <br>
+                              1910, watercolor and gouache.  
+                              </p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="height:30em;">
+                          <img class="card-img-top" id="horiz-pic" src="https://www.bowdoin.edu/art-museum/exhibitions/2020/images/zorach-weir-600x.jpg?1588735261264" alt="Mountains, clouds, and people gathered in the foreground">
+                          <div class="card-body">
+                            <h5 class="card-title">The Weirs–Robinhood Cove in Early Summer</h5>
+                            
+                            <p class="card-text">
+                              By: William Zorach. <br>
+                                1940, watercolor over charcoal.
+                                
+                            </p>
+                            
+                          </div>
+                        </div>
+
+                       
+                      </div>
+                      <br></br>
+
+                      <div class="card-deck">
+                        <div class="card" style="height:33em;">
+                          <img class="card-img-top" id="horiz-pic" src="https://www.bowdoin.edu/art-museum/exhibitions/2020/images/hartley-600x468.jpg?1588735261264" alt="European painting of people gathered at a court">
+                          <div class="card-body">
+                            <h5 class="card-title">After the Storm, Vinalhaven</h5>
+                            <p class="card-text">By: Marsden Hartley
+                              <br>
+                              1938-39, oil on canvas.
+                          </div>
+                        </div>
+                        <div class="card" style="height:33em;">
+                          <img class="card-img-top" id="horiz-pic" src="https://www.bowdoin.edu/art-museum/exhibitions/2020/images/bellows-green-breaker-600x.jpg?158873526126" alt="Mountains, clouds, and people gathered in the foreground">
+                          <div class="card-body">
+                            <h5 class="card-title">Green Breaker</h5>
+                            <p class="card-text">
+                              By: George Bellows.  <br>
+                              1913, oil on panel.
+                              
+                            </p>
+                            
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <br></br>
+                      
+                    </div>
+
+
+
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                    
+
+                  </div>
+                </div>
+              </div>
           
-      
-        
-        
-       <body id="main">
-           <center>
-                <button>Past Exhibitions</button>
-                <button>Upcoming Exhibitions</button>
-                <button>Collections</button>
-           </center>
-           
-       </body>
     
-
-      
+         
+       
 
     
     </div>
+
 
