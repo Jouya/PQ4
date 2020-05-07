@@ -38,7 +38,7 @@
   text-align: center;
 }
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .fa-facebook {
   background: #3B5998;
@@ -87,9 +87,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 1420px;
+  /* width: 75%; */
   background-color: white;
   font-family: inherit;
+  position: absolute;
+ 
 }
 
 .footer :right{
@@ -223,16 +225,16 @@
 }
 
  #contact-submit {
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: 'Roboto Condensed', serif;
     padding: 10px;
  }
 
  #contact-submit:hover {
 
-    color: gray;
-    background-color: black;
+   
+    background-color: gray;
     font-family: 'Roboto Condensed', serif;
     padding: 10px;
  }
@@ -308,7 +310,14 @@
   position: initial;
   width: 210px;
   height: 80px;
-  margin-left: 15%;
+  /* margin-left: 15%; */
+  font-family: 'Roboto Condensed', serif;
+  
+}
+
+.side_button:hover {
+
+  background-color: gray;
 }
 
 .custom_img_center {
@@ -389,7 +398,7 @@ h2 {
   z-index: 0; 
   font-family: 'Lato', sans-serif;
 }
-#list-home, #list-profile {
+#list-home, #list-profile, #list-messages {
 
   position: absolute; 
   left: -30vh;
@@ -475,4 +484,20 @@ h2 {
 #half-pic{
 
   width: 20%;
+}
+
+#ftr-pos {
+
+  position:absolute;
+  margin-top: 120%;
+}
+h4 {
+  font-family: 'Roboto Condensed', serif;
+}
+
+.soc-med {
+
+  margin-top: -100px;
+  margin-left: 80%;
+  position: absolute;
 }

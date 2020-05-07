@@ -20,7 +20,7 @@ Jouya Mahmoudi, Zeynep Tuna, Michelle Luan
 * https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * https://codepen.io/tutsplus/pen/MzOqbK
-* bootStrap CSS
+* BootStrap CSS
 
 #### Images:
 

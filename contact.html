@@ -13,7 +13,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed& display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Bootstrap Scripts -->
   
   <title>Contact Page</title>
@@ -27,7 +30,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="#">About</a>
-        <a href="#">Exhibitions</a>
+        <a href="exhibits.html">Exhibitions</a>
         <a href="#">Visit</a>
         <a href="#">Events and News</a>
         <a href="#">Discussion Forum</a>
@@ -37,15 +40,48 @@
       <div id="main">
         <button class="openbtn" onclick="openNav()">☰</button>  
         <h1 id="h2">Bowdoin College Museum of Art</h1>
+        <div class="soc-med">
+          <div fa>
+              <a href="https://www.facebook.com/bowdoinartmuseum/" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/bowdoinmuseum/?hl=en" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/bowdoinmuseum?lang=en" class="fa fa-twitter"></a>
+          </div>
+      </div>
+   
+    </div>
+    
+    
+    
         
         <div class="img-cntr">
           <img src="Images/CONTACTUS.png" class="img-responsive" id="contactpic" alt="Bowdoin Art Museum">
           <br></br>
+
+          <div class="card" style="margin-left:15%;margin-right:15%;">
+            <div class="card-header">
+              <h4>Contact the Museum</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Meet the Staff</h5>
+              <p class="card-text">If you have any questions, or want to contact the museum staff directly, feel free to check out the staff profiles below.</p>
+              <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+
+          <!-- <h3 id="h3">Check out our staff profiles here:</h3>
+          <br>
           <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>
           <br></br>
-          
+          <h3 id="h3">FAQ</h3> -->
+
         </div>
-        <h3 id="h3"> Give us feedback!</h3>
+
+      
+        
+        <br></br>
+        <h3 id="h3"> Give us feedback! Leave any questions, comments, or suggestions below. </h3>
+    
         <!-- 
         <form class="form" action="mailto:jmahmoud@bowdoin.edu?Subject=Feedback" method="POST" enctype="text/plain">
           We probably don't need this - Jouya
@@ -80,11 +116,39 @@
         
       </div>
     
-
-      <footer>
-         <i class="material-icons">help</i>
-      </footer>
-
-    
 </body>
+
+<hr color="black" border-width="6px">
+        <footer style="width:98%;">
+
+            <div class="row">
+                <div class="col">
+                    <img src="Images/logo.png" width="110" height="70" id="logo">
+                </div>
+                <div class = "vertical"></div> 
+                <div class="col">
+                    9400 College Station<br />Brunswick, ME 04011<br />(207) 725-3275
+                </div>
+                <div class="vl"></div>
+                <div class="col">
+                    Museum Hours: </br>Tuesday-Saturday: 10:00am-5:00pm
+                        <div style="line-height:20%;">
+                            <br>
+                        </div>
+                        Thursday: 10:00am-8:30pm
+                        <div style="line-height:20%;">
+                            <br>
+                        </div>
+                        Sunday: 1:00pm-5:00pm
+                        
+                </div>
+                <div class="vl"></div>
+                <div class="col">
+                    The Museum of Art is open to the public and free of charge. Closed on Mondays and national holidays.
+                </div>
+              </div>
+              <div style="line-height:80%;">
+                <br>
+              </div>
+        </footer>
 
