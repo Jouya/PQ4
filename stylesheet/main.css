@@ -583,4 +583,164 @@ h4 {
   left: 78%;
   bottom: -41.5%;
   font-family: 'Roboto Condensed', serif;
+.column {
+  float: left;
+  height: 100%;
+}
+
+.left {
+  width: 83%;
+  margin-left: -13%;
+  margin-top: -2.3%;
+}
+
+.right {
+  margin-left: -10%;
+  margin-top: -2.4%;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#h9 {
+  margin-left: -2%;
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+}
+
+#line1 {
+  margin-top: 0%;
+}
+
+#line2 {
+  margin-top: 5%;
+  border-top: 2px dotted white;
+}
+
+#news1 {
+  position: relative;
+  color: white;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 36%;
+  margin-top: 0%;
+}
+
+#news2 {
+  position: relative;
+  color: white;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 36%;
+  margin-top: 0%;
+}
+
+#read-link {
+  position: relative;
+  color: white;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
+#h10 {
+  margin-left: 1%;
+  margin-top: 0.7%;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Condensed', serif;
+  font-size: 30px;
+}
+
+#h11 {
+  margin-left: 1%;
+  margin-top: 2.7%;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#h12 {
+  margin-left: 24%;
+  margin-top: -4.7%;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#h13 {
+  margin-left: 50%;
+  margin-top: -10%;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto Condensed', serif;
+  font-size: 30px;
+}
+
+.buttons {
+  margin-left: 50%;
+  margin-top: 1%;
+}
+
+.reminder {
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.reminder-email {
+  margin-top: 2%;
+  margin-left: 6%;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+}
+
+.reminder-text {
+  margin-top: 2%;
+  margin-left: 7%;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+}
+
+.reminder-none {
+  margin-top: 2%;
+  margin-left: 6%;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+}
+
+.account {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', serif;
+  font-weight: normal;
+  margin-top: 0%;
+  margin-left: 85%;
 }
