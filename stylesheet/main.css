@@ -545,6 +545,8 @@ h4 {
   margin-top: -100px;
   margin-left: 80%;
   position: absolute;
+}
+
 #h8 {
   position: absolute;
   left: 55%;
@@ -583,6 +585,7 @@ h4 {
   left: 78%;
   bottom: -41.5%;
   font-family: 'Roboto Condensed', serif;
+}
 .column {
   float: left;
   height: 100%;
