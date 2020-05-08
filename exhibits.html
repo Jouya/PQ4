@@ -15,6 +15,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed& display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- My Script --> 
   <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -43,8 +45,24 @@
 
         <button class="openbtn" onclick="openNav()">☰</button>  
         <h1 id="h2">Bowdoin College Museum of Art: Exhibitions</h1>
-        
+   
+        <!-- Search form -->
+        <form class="form-inline" style="margin-top: -30px;background-color:black; padding:14px;">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search..."
+            aria-label="Search">
+        </form>
+        <div class="soc-med2">
+          <div fa>
+              <a href="https://www.facebook.com/bowdoinartmuseum/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/bowdoinmuseum/?hl=en" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/bowdoinmuseum?lang=en" target="_blank" class="fa fa-twitter"></a>
+          </div>
+      </div>
+        <br>
     </div>
+   
+    
    
         <div id="exhibits">
             <div class="row">
@@ -60,7 +78,10 @@
                 <div class="col-8">
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                      
+                      <br>
                         <div class="jumbotron">
+                          
                             <h1 class="display-4">To Instruct and Delight: European and American Art, 1500-1800</h1>
                             <p class="lead">Dates: January 15, 2015 - January 1, 2022 <br>
                                 Location: Bowdoin Gallery <br> 
@@ -330,6 +351,7 @@
               </div>
               
       </div>
+  
       
     </div>
 

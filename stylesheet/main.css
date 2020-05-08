@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+#no-dec, #no-dec:hover {
+
+  color:white;
+  text-decoration:none;
+}
+
+
 #button {
   color: white;
   background: black;
@@ -72,8 +79,7 @@
   flex-grow: 1; */
   /* background-image: url("https://new.maineartmuseums.org/wp-content/uploads/2006/11/Bowdoin-Banner.jpg"); */
   background-image: url("https://raw.githubusercontent.com/Jouya/PQ4/master/Images/homepage.jpeg");
-
-  opacity: 120%;
+  opacity:0.8;
   background-blend-mode: lighten;
   background-repeat: repeat-x;
   margin-top: 0vh;
@@ -148,7 +154,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: -5px;
     left: -20px;
     background-color: #111;
@@ -173,6 +179,7 @@
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
     color: #f1f1f1;
+    text-decoration: underline;
   }
   
   /* Position and style the close button (top right corner) */
@@ -277,14 +284,13 @@
   margin:auto;
   cursor: pointer;
 
-   
  }
 
  #pagelink:hover {
   cursor: pointer;
-  color: gray;
-  font-weight:900;
-  text-decoration:none;
+  /* color: gray; */
+  font-weight:bolder;
+  text-decoration:underline;
   background: transparent;
 
   
@@ -449,20 +455,21 @@ h2 {
 
 #list-home-list, #list-profile-list, #list-messages-list {
 
-  width: 45%;
+  /* margin-right: 2%; */
+  width: 200px;
   position: relative;
-  z-index: 0; 
+  z-index: 1; 
   font-family: 'Lato', sans-serif;
 }
 #list-home, #list-profile, #list-messages {
 
-  position: absolute; 
-  left: -30vh;
+  position: absolute;
+  left:-25vh; 
 }
 
 .jumbotron {
 
-  margin-right:8%;
+  margin-right:5%;
 }
 
 .card-deck {
@@ -471,13 +478,19 @@ h2 {
 }
 
 .jumbotron h1 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
   font-family: 'Roboto Condensed', serif;
 }
 
 .jumbotron h2 {
   font-size: 23px;
+  font-weight: 600;
+  font-family: 'Roboto Condensed', serif;
+
+}
+.jumbotron h3 {
+  font-size: 38px;
   font-weight: 600;
   font-family: 'Roboto Condensed', serif;
 
@@ -506,10 +519,7 @@ h2 {
   font-size: 16px;
 }
 
-.list-group-item-action {
 
-  background-color:black;
-}
 
 h2 {
 
@@ -544,8 +554,9 @@ h2 {
 
 #ftr-pos {
 
-  position:absolute;
-  margin-top: 120%;
+  position:relative;
+  margin-top: 320vh;
+
 }
 h4 {
   font-family: 'Roboto Condensed', serif;
@@ -554,6 +565,13 @@ h4 {
 .soc-med {
 
   margin-top: -100px;
+  margin-left: 85%;
+  position: absolute;
+}
+
+.soc-med2 {
+
+  margin-top:-56px;
   margin-left: 85%;
   position: absolute;
 }
@@ -872,3 +890,74 @@ h4 {
 h3,h5,p {
   font-family: 'Roboto Condensed', serif;
 }
+#discuss-pic {
+  height: 40vh;
+  width: 100%;
+}
+
+#disc-2 {
+  width: 100%;
+  height:40vh;
+}
+
+#quote {
+
+  background-color:gray;
+  color:black;
+
+}
+
+#list-example {
+
+  width: 100%;
+}
+
+#disc-itm {
+
+  width: 25%;
+  margin-left:3.5%;
+  margin-right:3.5%;
+  color: white;
+  background: black;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', serif;
+  text-align:center;
+
+}
+
+#disc-itm:hover {
+
+  background-color:gray;
+}
+
+p, label, .dropdown-item, .form-control{
+
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-right:5%;
+
+}
+
+.list-group-item {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color:gray;
+  
+  margin-right:-25%;
+}
+
+.card-link {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 14.5px;
+  color:black;
+  
+}
+
+
