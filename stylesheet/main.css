@@ -272,6 +272,7 @@
   text-align: center;
   font-family: 'Roboto Condensed', serif;
   margin:auto;
+  cursor: pointer;
 
    
  }
@@ -372,12 +373,16 @@
 .visitpage {
   margin-top: -10px;
   margin-left:-20px;
-  margin-right:-20px;
+  /* margin-right:-20px; */
  }
 
  #visitpic {
-  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105%;
   margin-top: -40px;
+  background-color:black;
 }
 
 .tour_button {
@@ -402,9 +407,9 @@
 
 #map {
   position: fixed;
-  margin-top: 4%;
-  margin-left: 2%;
-  width: 50%;
+  margin-top: 0%;
+  margin-left: 5%;
+  width: 92%;
   height: 400px;
   background-color: grey;
 }
@@ -412,7 +417,7 @@
 #h7 {
   position: absolute;
   right: 32%;
-  bottom: 8.5%;
+  bottom: -2.5%;
   font-family: 'Roboto Condensed', serif;
 }
 
@@ -552,7 +557,7 @@ h4 {
 #h8 {
   position: absolute;
   left: 55%;
-  bottom: -3%;
+  bottom: -5%;
   font-family: 'Roboto Condensed', serif;
 }
 
@@ -572,8 +577,8 @@ h4 {
   cursor: pointer;
   width: 250px;
   height: 70px;
-  left: 59%;
-  bottom: -41.5%;
+  /* left: 59%;
+  bottom: -41.5%; */
   font-family: 'Roboto Condensed', serif;
 }
 
@@ -586,8 +591,8 @@ h4 {
   cursor: pointer;
   width: 250px;
   height: 70px;
-  left: 78%;
-  bottom: -41.5%;
+  margin-left: 300px;
+  /* bottom: -41.5%; */
   font-family: 'Roboto Condensed', serif;
 }
 .column {
@@ -764,6 +769,7 @@ h4 {
 
   position:absolute;
   margin-bottom: 0%;
+  margin-top: 20%;
 }
 
 #ftr-style {
@@ -781,8 +787,8 @@ h4 {
 
 .help-button {
   position: absolute;
-  bottom: 0%;
-  margin-left: 98%;
+  bottom: 5%;
+  margin-left: 45%;
   margin-bottom: 10%;
   background-color: black;
   border: none;
@@ -840,5 +846,22 @@ h4 {
   cursor: pointer;
   width: 50px;
   height: 50px;
+  font-family: 'Roboto Condensed', serif;
+}
+
+.column2 {
+  float: left;
+  width: 48%;
+  
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3,h5,p {
   font-family: 'Roboto Condensed', serif;
 }
