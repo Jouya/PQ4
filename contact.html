@@ -57,31 +57,37 @@
           <img src="Images/CONTACTUS.png" class="img-responsive" id="contactpic" alt="Bowdoin Art Museum">
           <br></br>
 
-          <div class="card" style="margin-left:15%;margin-right:15%;">
+          <div class="card" style="margin-left:4%;margin-right:55%;">
             <div class="card-header">
               <h4>Contact the Museum</h4>
             </div>
             <div class="card-body">
               <h5 class="card-title">Meet the Staff</h5>
               <p class="card-text">If you have any questions, or want to contact the museum staff directly, feel free to check out the staff profiles below.</p>
-              <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>            
             </div>
-          </div>
-
-          <!-- <h3 id="h3">Check out our staff profiles here:</h3>
-          <br>
-          <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>
-          <br></br>
-          <h3 id="h3">FAQ</h3> -->
-
+            </div>
+          <div class="card" style="margin-top:-19.28%;margin-left:48%;margin-right:4%;">
+            <div class="card-header">
+            <h4>Give us feedback! Leave any questions/comments/suggestions below.</h4>
+            </div>
+            <div class="card-body">
+              <form class="form" action="contact.html" onsubmit="success()">
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Comments:</label>
+                  <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button id="contact-submit">Submit</button>
+              </form>
+              <script>
+                function success() {
+                  alert("Your message was sent!");
+                }
+                </script>
+          </form>
         </div>
-
-      
-        
-        <br></br>
-        <h3 id="h3"> Give us feedback! Leave any questions, comments, or suggestions below. </h3>
-    
+        <button class="help-button2">?</button>
+        </div>
         <!-- 
         <form class="form" action="mailto:jmahmoud@bowdoin.edu?Subject=Feedback" method="POST" enctype="text/plain">
           We probably don't need this - Jouya
@@ -100,20 +106,6 @@
               <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             --->
-            <form class="form" action="contact.html" onsubmit="success()">
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Comments:</label>
-                <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button id="contact-submit">Submit</button>
-            </form>
-            <script>
-              function success() {
-                alert("Your message was sent!");
-              }
-              </script>
-        </form>
-        
       </div>
     
 </body>
