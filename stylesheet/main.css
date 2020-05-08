@@ -844,8 +844,28 @@ h4 {
   background-color:gray;
 }
 
-p, #dropdownMenuButton, .dropdown-item {
+p, label, .dropdown-item, .form-control{
 
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-right:5%;
 
 }
+
+.list-group-item {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color:gray;
+  
+  margin-right:-25%;
+}
+
+.card-link {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 14.5px;
+  color:black;
+  
+}
+
+
