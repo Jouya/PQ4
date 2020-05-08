@@ -251,12 +251,15 @@
   
     max-width: 100%;
     margin-top: -40px;
+    
+    /* margin-right:-40px; */
  }
 
  .contactpage {
 
   margin-left:-20px;
   margin-right:-20px;
+  margin-bottom:5%;
  }
  
 
@@ -380,7 +383,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 105%;
+  width: 102%;
+  height:30%;
   margin-top: -40px;
   background-color:black;
 }
@@ -395,7 +399,7 @@
   width: 210px;
   height: 55px;
   margin-top: -105px;
-  margin-left: 85%;
+  margin-left: 83%;
   font-family: 'Roboto Condensed', serif;
 }
 
@@ -550,7 +554,7 @@ h4 {
 .soc-med {
 
   margin-top: -100px;
-  margin-left: 87%;
+  margin-left: 85%;
   position: absolute;
 }
 
@@ -819,9 +823,7 @@ h4 {
 
 .help-button2 {
   position: absolute;
-  bottom: 0%;
-  margin-left: 99%;
-  margin-bottom: 1%;
+  margin-left: 95%;
   background-color: black;
   border: none;
   color: white;
@@ -852,6 +854,11 @@ h4 {
 .column2 {
   float: left;
   width: 48%;
+  
+}
+.column3 {
+  float: left;
+  width: 40%;
   
 }
 

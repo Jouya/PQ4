@@ -53,11 +53,65 @@
     
     
         
-        <div class="img-cntr">
+        <div>
           <img src="Images/CONTACTUS.png" class="img-responsive" id="contactpic" alt="Bowdoin Art Museum">
           <br></br>
+          </div>
+         
 
-          <div class="card" style="margin-left:4%;margin-right:55%;">
+            <div class="row2">
+              <div class="column2">
+                <div class="card" style="margin-left:10%; width: 90%;">
+                  <div class="card-header">
+                    <h4>Contact the Museum</h4>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Meet the Staff</h5>
+                    <p class="card-text">If you have any questions, or want to contact the museum staff directly, feel free to check out the staff profiles below.</p>
+                    <button class="side_button" onclick="window.location.href='staff.html'">Staff Profiles</button>            
+                  </div>
+                  </div>
+                </div>
+              
+              <div class="column2">
+                <div class="card" style="margin-left:5%;">
+                  <div class="card-header">
+                  <h3>Give us feedback! Leave any questions/comments/suggestions below.</h3>
+                  </div>
+                  <div class="card-body">
+                    <form class="form" action="contact.html" onsubmit="success()">
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Comments:</label>
+                        <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button id="contact-submit">Submit</button>
+                    </form>
+                    <script>
+                      function success() {
+                        alert("Your message was sent!");
+                      }
+                      </script>
+                </form>
+              </div>
+              <br>
+              <br>
+       
+              
+            </div>
+            
+          </div>
+        
+          </div>
+
+          <div>
+            <br>
+            <button class="help-button2">?</button>
+            <br>
+          </div>
+        
+
+         
+          <!-- <div class="card" style="margin-left:4%;margin-right:55%;">
             <div class="card-header">
               <h4>Contact the Museum</h4>
             </div>
@@ -78,7 +132,7 @@
                   <textarea name=" " class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button id="contact-submit">Submit</button>
-              </form>
+              </form> -->
               <script>
                 function success() {
                   alert("Your message was sent!");
@@ -86,7 +140,8 @@
                 </script>
           </form>
         </div>
-        <button class="help-button2">?</button>
+        <!-- <button class="help-button2">?</button> -->
+      </div>
         </div>
         <!-- 
         <form class="form" action="mailto:jmahmoud@bowdoin.edu?Subject=Feedback" method="POST" enctype="text/plain">
@@ -110,9 +165,9 @@
     
 </body>
 
+<br>
 <hr color="black" border-width="6px">
         <footer style="width:98%;">
-
             <div class="row">
                 <div class="col">
                     <img src="Images/logo.png" width="110" height="70" id="logo">
